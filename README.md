@@ -1,8 +1,10 @@
 # Coderbyte programming challenges - my solutions
 
-ToC
+#### Table of contents
+=========
 
-* [Easy](#easy-challenges)
+* [Easy challenges](#easy-challenges)
+    * [Challenge 1 - Reverse a string]()
 
 These are my solutions to the programming challenges found on http://coderbyte.com/
 
