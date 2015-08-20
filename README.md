@@ -2,7 +2,7 @@
 
 ## Easy challenges
 
-### Challenge 1
+### Challenge 1 - Reverse a string
 
 ```javascript
 function FirstReverse(str) {
