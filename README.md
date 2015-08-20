@@ -1,5 +1,9 @@
 # Coderbyte programming challenges - my solutions
 
+ToC
+
+* [Easy](#easy-challenges)
+
 These are my solutions to the programming challenges found on http://coderbyte.com/
 
 My language of choice is Javascript
