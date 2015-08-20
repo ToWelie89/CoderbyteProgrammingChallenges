@@ -4,7 +4,7 @@
 =========
 
 * [Easy challenges](#easy-challenges)
-    * [Challenge 1 - Reverse a string]()
+    * [Challenge 1 - Reverse a string](#user-content-challenge-1---reverse-a-string)
 
 These are my solutions to the programming challenges found on http://coderbyte.com/
 
