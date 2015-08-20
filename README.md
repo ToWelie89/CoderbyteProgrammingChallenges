@@ -24,6 +24,7 @@ function FirstReverse(str) {
 }
 
 FirstReverse(readline());
+```
 
 
 
