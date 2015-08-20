@@ -1,5 +1,9 @@
 # Coderbyte programming challenges - my solutions
 
+These are my solutions to the programming challenges found on http://coderbyte.com/
+
+My language of choice is Javascript
+
 ## Easy challenges
 
 ### Challenge 1 - Reverse a string
