@@ -8,7 +8,7 @@ Table of contents
 =========
 * [Easy challenges](#easy-challenges)
     * [Challenge 1 - Reverse a string](#user-content-challenge-1---reverse-a-string)
-    * [Challenge 2 - Determine factorial](#user-content-challenge-1---determine-factorial)
+    * [Challenge 2 - Determine factorial](#user-content-challenge-2---determine-factorial)
 
 ## Easy challenges
 
