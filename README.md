@@ -45,7 +45,7 @@ FirstFactorial(readline());
 
 ```javascript
 function LongestWord(sentence) {
-    sentence = sentence.replace(/[^a-zA-Z ]/g, "")
+    sentence = sentence.replace(/[^a-zA-Z0-9]/g, "")
     var words = sentence.split(" ");
 
     var largestWord = "";
@@ -58,7 +58,6 @@ function LongestWord(sentence) {
 
     return largestWord;
 }
-```
 
 LongestWord(readline());
 ```
