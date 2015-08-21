@@ -43,6 +43,7 @@ FirstFactorial(readline());
 
 ### Challenge 3 - Determine longest word
 
+```javascript
 function LongestWord(sentence) {
     sentence = sentence.replace(/[^a-zA-Z ]/g, "")
     var words = sentence.split(" ");
@@ -57,6 +58,7 @@ function LongestWord(sentence) {
 
     return largestWord;
 }
+```
 
 LongestWord(readline());
 ```
