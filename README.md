@@ -8,6 +8,7 @@ Table of contents
 =========
 * [Easy challenges](#easy-challenges)
     * [Challenge 1 - Reverse a string](#user-content-challenge-1---reverse-a-string)
+    * [Challenge 2 - Determine factorial](#user-content-challenge-1---determine-factorial)
 
 ## Easy challenges
 
@@ -25,6 +26,19 @@ function FirstReverse(str) {
 FirstReverse(readline());
 ```
 
+### Challenge 2 - Determine factorial
+
+```javascript
+function FirstFactorial(num) {
+    var product = 1;
+    for (var i = num; i > 0; i--) {
+        product *= i;
+    }
+    return product;
+}
+
+FirstFactorial(readline());
+```
 
 
 
