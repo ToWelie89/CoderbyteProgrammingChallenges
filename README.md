@@ -10,11 +10,11 @@ Table of contents
     * [Challenge 1 - Reverse a string](#user-content-challenge-1---reverse-a-string)
     * [Challenge 2 - Determine factorial](#user-content-challenge-2---determine-factorial)
     * [Challenge 3 - Determine longest word](#user-content-challenge-3---determine-longest-word)
+    * [Challenge 4 - Letter changes](#user-content-challenge-4---letter-changes)
 
 ## Easy challenges
 
 ### Challenge 1 - Reverse a string
-
 ```javascript
 function FirstReverse(str) {
     var reverseString = "";
@@ -28,7 +28,6 @@ FirstReverse(readline());
 ```
 
 ### Challenge 2 - Determine factorial
-
 ```javascript
 function FirstFactorial(num) {
     var product = 1;
@@ -42,7 +41,6 @@ FirstFactorial(readline());
 ```
 
 ### Challenge 3 - Determine longest word
-
 ```javascript
 function LongestWord(sentence) {
     sentence = sentence.replace(/[^a-zA-Z0-9]/g, "")
@@ -60,4 +58,31 @@ function LongestWord(sentence) {
 }
 
 LongestWord(readline());
+```
+
+### Challenge 4 - Letter changes
+```javascript
+function LetterChanges(str) {
+    var vowels = ["a", "e", "i", "o", "u"];
+    var stringAsArray = str.split("");
+    for (var i = 0; i < stringAsArray.length; i++) {
+        var pos = stringAsArray[i].charCodeAt(0);
+        if ((pos >= 97 && pos < 122) || (pos >= 65 && pos < 90)) {
+            stringAsArray[i] = String.fromCharCode(pos + 1);
+        } else if (pos == 122) {
+            stringAsArray[i] = String.fromCharCode(97);
+        } else if (pos == 90) {
+            stringAsArray[i] = String.fromCharCode(65);
+        }
+
+        if (vowels.indexOf(stringAsArray[i]) >= 0) {
+            stringAsArray[i] = stringAsArray[i].toUpperCase();
+        }
+    }
+
+    var newString = stringAsArray.join("");
+    return newString;
+}
+
+LetterChanges(readline());
 ```
