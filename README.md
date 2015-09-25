@@ -11,6 +11,7 @@ Table of contents
     * [Challenge 2 - Determine factorial](#user-content-challenge-2---determine-factorial)
     * [Challenge 3 - Determine longest word](#user-content-challenge-3---determine-longest-word)
     * [Challenge 4 - Letter changes](#user-content-challenge-4---letter-changes)
+    * [Challenge 5 - Simple adding](#user-content-challenge-5---simple-adding)
 
 ## Easy challenges
 
@@ -85,4 +86,19 @@ function LetterChanges(str) {
 }
 
 LetterChanges(readline());
+```
+
+### Challenge 5 - Simple adding
+```javascript
+function SimpleAdding(num) {
+    var totalSum = 0;
+
+    for (var i = 1; i <= num; i++) {
+        totalSum += i;
+    }
+
+    return totalSum;
+}
+
+SimpleAdding(readline());
 ```
