@@ -12,6 +12,7 @@ Table of contents
     * [Challenge 3 - Determine longest word](#user-content-challenge-3---determine-longest-word)
     * [Challenge 4 - Letter changes](#user-content-challenge-4---letter-changes)
     * [Challenge 5 - Simple adding](#user-content-challenge-5---simple-adding)
+    * [Challenge 6 - Simple adding](#user-content-challenge-6---letter-capitalize)
 
 ## Easy challenges
 
@@ -101,4 +102,22 @@ function SimpleAdding(num) {
 }
 
 SimpleAdding(readline());
+```
+
+### Challenge 6 - Letter Capitalize
+```javascript
+function LetterCapitalize(line) {
+    var words = line.split(" ");
+    for (var i = 0; i < words.length; i++) {
+        var lettersInWord = words[i].split("");
+        lettersInWord[0] = lettersInWord[0].toUpperCase();
+        var newWord = lettersInWord.join("");
+
+        words[i] = newWord;
+    }
+    var newString = words.join(" ");
+    return newString;
+}
+
+LetterCapitalize(readline());
 ```
