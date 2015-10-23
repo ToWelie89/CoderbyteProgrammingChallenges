@@ -14,6 +14,7 @@ Table of contents
     * [Challenge 5 - Simple adding](#user-content-challenge-5---simple-adding)
     * [Challenge 6 - Letter capitalize](#user-content-challenge-6---letter-capitalize)
     * [Challenge 7 - Simple symbols](#user-content-challenge-7---simple-symbols)
+    * [Challenge 8 - Check nums](#user-content-challenge-8---check-nums)
 
 ## Easy challenges
 
@@ -140,4 +141,19 @@ function SimpleSymbols(str) {
 }
 
 SimpleSymbols(readline());
+```
+
+### Challenge 8 - Check nums
+```javascript
+function CheckNums(num1,num2) { 
+    if (num2 > num1) {
+        return true;
+    } else if (num1 > num2) {
+        return false;
+    } else {
+        return -1;
+    }
+}
+
+CheckNums(readline());
 ```
